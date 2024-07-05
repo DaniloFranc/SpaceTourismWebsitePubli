@@ -5,10 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Space Tourism Website</title>
         <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+        <!-- <link rel="stylesheet" type="text/css" href="Mobile.css"> -->
         <link rel="stylesheet" type="text/css" href="styleTechnology.css">
         <link rel="stylesheet" type="text/css" href="styleDestination.css">
         <link rel="stylesheet" type="text/css" href="styleCrew.css">
         <link rel="stylesheet" type="text/css" href="style.css">
+        
         
     </head>
     <style>
@@ -50,7 +52,23 @@
           
     </style>
     <body id="body">
-        <header class="header">  
+
+        <div class="MobileCabe">
+            <img class="logo" src="icons/logo.svg" alt="Logo">
+            <div class="menu-icon" id="menu-icon">&#9776;</div>
+            <nav class="nav-menu" id="nav-menu">
+            <button class="menu-close-btn" id="menu-close"></button>
+            <ul>
+                <li id="barra0Mobile" class="menuMobileLetra"><a class="menuMobile" href="#">00 </a>HOME</li>
+                <li id="barra1Mobile" class="menuMobileLetra"><a class="menuMobile" href="#">01 </a>DESTINATION</li>
+                <li id="barra2Mobile" class="menuMobileLetra"><a class="menuMobile" href="#">02 </a>CREW</li>
+                <li id="barra3Mobile" class="menuMobileLetra"><a class="menuMobile" href="#">03 </a>TECHNOLOGY</li>
+            </ul>
+            </nav>
+        </div>
+
+
+        <header id="header" class="header">  
 
             <img class="imagem" src="icons/logo.svg">
             <div class="espaco"></div>
@@ -92,6 +110,25 @@
     
         </header>
         <main id="main" class="alinhar">
+
+            <div class="textoCorMobile">
+                <div class="texto1">SO, YOU WANT TO TRAVEL TO</div>
+                <div class="texto2">SPACE</div>
+                <div class="texto3">Let's face it; if you want to go to space, you might</div>
+                <div class="texto4">as well genuinely go to outer space and not hover</div>
+                <div class="texto5">kind of on the edge of it. Well sit back, and relax</div>
+                <div class="texto6">because we'll give you a truly out of this world</div>
+                <div class="texto6">experience!</div>
+            </div>
+
+            <div class="textoTablet">
+                <div class="texto1">SO, YOU WANT TO TRAVEL TO</div>
+                <div class="texto2">SPACE</div>
+                <div class="texto3">Let's face it; if you want to go to space, you might as well</div>
+                <div class="texto4">genuinely go to outer space and not hover kind of on the edge of</div>
+                <div class="texto5">it. Well sit back, and relax because we'll give you a truly out of</div>
+                <div class="texto6">this world experience!</div>
+            </div>
     
             <div class="textoCor">
                 <div class="texto1">SO, YOU WANT TO TRAVEL TO</div>
@@ -101,10 +138,11 @@
                 <div class="texto5">edge of it. Well sit back, and relax because we'll give you a</div>
                 <div class="texto6">truly out of this world experience!</div>
             </div>
-            <div>
+            <div class="alinBot">
                 <button class="botao">EXPLORE</button>
             </div>
         </main>    
-    </body>
-    <script id="script" src="style.js" async defer></script>
+        <script id="script" src="style.js" async defer></script>
+        
+    </body>    
 </html>
